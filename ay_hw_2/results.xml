@@ -1,0 +1,37 @@
+<results>
+  <book id="bk102">
+    <description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</description>
+  </book>
+  <book id="bk103">
+    <description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</description>
+  </book>
+  <book id="bk104">
+    <description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</description>
+  </book>
+  <book id="bk107">
+    <description>A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.</description>
+  </book>
+  <book id="bk109">
+    <description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.</description>
+  </book>
+  <book id="bk111">
+    <title>MSXML3: A Comprehensive Guide</title>
+  </book>
+  <book id="bk112">
+    <title>Visual Studio 7: A Comprehensive Guide</title>
+    <description>Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.</description>
+  </book>
+</results>
