@@ -1,0 +1,3 @@
+db.nyt2.update({ "title": /Breathless/i }, { $set: { "price": 28.5 }},{ multi: true })
+
+WriteResult({ "nMatched" : 5, "nUpserted" : 0, "nModified" : 5 })

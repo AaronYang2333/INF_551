@@ -1,0 +1,23 @@
+db.nyt2.aggregate({ $group: { _id: "$publisher", total: { $sum: 1 } } }, { $match: { total: { $gte: 10 } } }, {$project: {_id: 1}})
+
+{ "_id" : "Flatiron" }
+{ "_id" : "Scout" }
+{ "_id" : "Quirk Books" }
+{ "_id" : "Mulholland/Little, Brown" }
+{ "_id" : "Atria/Emily Bestler" }
+{ "_id" : "FaithWords" }
+{ "_id" : "Ecco/HarperCollins" }
+{ "_id" : "Atlantic Monthly" }
+{ "_id" : "Emily Bestler/Atria" }
+{ "_id" : "Gallery Books" }
+{ "_id" : "Marian Wood/Putnam" }
+{ "_id" : "Reagan Arthur/Little, Brown" }
+{ "_id" : "Norton" }
+{ "_id" : "Gallery" }
+{ "_id" : "William Morrow" }
+{ "_id" : "Scribner" }
+{ "_id" : "Del Rey" }
+{ "_id" : "Bantam" }
+{ "_id" : "Berkley" }
+{ "_id" : "Howard Books" }
+

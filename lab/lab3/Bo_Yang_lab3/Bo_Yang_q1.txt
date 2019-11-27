@@ -1,0 +1,3 @@
+db.nyt2.find({"title": /history/i}).count()
+
+4

@@ -1,0 +1,5 @@
+db.nyt2.aggregate({ $match: { publisher: { $eq: "Harper" }, price: { $gt: 0 } } }, { $group: { _id: null, avgprice: { $avg: "$price" } } }, {$project: {_id: 0}})
+
+{ "avgprice" : NumberDecimal("27.73") }
+
+

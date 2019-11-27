@@ -1,0 +1,3 @@
+db.nyt2.find({'rank': {$eq: 1}}).count()
+
+529

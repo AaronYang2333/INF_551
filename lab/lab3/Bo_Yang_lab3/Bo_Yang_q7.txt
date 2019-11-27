@@ -1,0 +1,20 @@
+> db.nyt2.aggregate({ $match: { publisher: { $eq: "Harper" } } },{ $group: { _id: "$title", shownTimes: { $sum: 1 } } },{ $match: { shownTimes: { $gte: 5 } } },{ $sort: { title: -1 } },{ $project: {_id:1}});
+
+{ "_id" : "HOUSE OF SPIES" }
+{ "_id" : "GO SET A WATCHMAN" }
+{ "_id" : "THE ENGLISH SPY" }
+{ "_id" : "THE MAGIC STRINGS OF FRANKIE PRESTO" }
+{ "_id" : "THE HEIST" }
+{ "_id" : "THE HOUR I FIRST BELIEVED" }
+{ "_id" : "THE ART OF RACING IN THE RAIN" }
+{ "_id" : "COMMONWEALTH" }
+{ "_id" : "AGINCOURT" }
+{ "_id" : "THE BLACK WIDOW" }
+{ "_id" : "THE ENGLISH GIRL" }
+{ "_id" : "WE ARE WATER" }
+{ "_id" : "THE FIRST PHONE CALL FROM HEAVEN" }
+
+
+
+
+

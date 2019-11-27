@@ -1,0 +1,22 @@
+db.nyt2.aggregate({$group: {_id: "$publisher", total: {$sum: 1}}})
+
+{ "_id" : "Feiwel & Friends", "total" : 1 }
+{ "_id" : "Flatiron", "total" : 11 }
+{ "_id" : "Blue Rider", "total" : 1 }
+{ "_id" : "Scout", "total" : 26 }
+{ "_id" : "Little, Brown and Knopf", "total" : 5 }
+{ "_id" : "ROC", "total" : 3 }
+{ "_id" : "Scout Press", "total" : 2 }
+{ "_id" : "Archipelago", "total" : 2 }
+{ "_id" : "Nan A. Talese/ Doubleday", "total" : 7 }
+{ "_id" : "Liveright", "total" : 5 }
+{ "_id" : "HarperVoyager", "total" : 2 }
+{ "_id" : "Knopf/McSweeney's", "total" : 6 }
+{ "_id" : "Penguin", "total" : 2 }
+{ "_id" : "Bloomsbury", "total" : 4 }
+{ "_id" : "SJP for Hogarth", "total" : 1 }
+{ "_id" : "Quirk Books", "total" : 16 }
+{ "_id" : "Harlequin Mira", "total" : 2 }
+{ "_id" : "Atria/Emily Bestler Books", "total" : 7 }
+{ "_id" : "Cemetery Dance", "total" : 3 }
+{ "_id" : "Mulholland/Little, Brown", "total" : 26 }
