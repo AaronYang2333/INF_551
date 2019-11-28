@@ -21,7 +21,6 @@
         max-height="515"
       >
         <el-table-column type="index" width="50"></el-table-column>
-        <el-table-column prop="ID" label="ID" width="100"></el-table-column>
         <el-table-column prop="flightNumber" label="FlightNumber" width="115"></el-table-column>
         <el-table-column prop="craftTypeCode" label="CraftTypeCode" width="125"></el-table-column>
         <el-table-column prop="traAirport" label="TraAirport" width="110"></el-table-column>
@@ -57,9 +56,9 @@ export default {
   data() {
     return {
       // basicApi: "https://flight-117bd.firebaseio.com/.json",
-      // deafultSuffix: "?orderBy=%22$key%22",
-      basicApi: "http://localhost:8066/api",
-      deafultSuffix: "/orderBy=%22$key%22",
+      basicApi: "http://3.14.161.4:8066/api",
+      // basicApi: "http://localhost:8066/api",
+      deafultSuffix: "?orderBy=%22$key%22",
       tableData: [],
       loading: true,
       rows: 100,
