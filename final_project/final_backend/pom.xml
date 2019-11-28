@@ -10,7 +10,7 @@
     </parent>
     <groupId>edu.aaron</groupId>
     <artifactId>final_backend</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>final_backend</name>
     <description>Demo project for Spring Boot</description>
 

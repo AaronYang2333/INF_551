@@ -56,8 +56,8 @@ export default {
   data() {
     return {
       // basicApi: "https://flight-117bd.firebaseio.com/.json",
-      basicApi: "http://3.14.161.4:8066/api",
-      // basicApi: "http://localhost:8066/api",
+      basicApi: "https://3.14.161.4:8066/api",
+      // basicApi: "https://localhost:8066/api",
       deafultSuffix: "?orderBy=%22$key%22",
       tableData: [],
       loading: true,
@@ -119,7 +119,6 @@ export default {
     },
     getDataByUrl(suffixUrl) {
       this.loading = true;
-      console.log(this.basicApi + suffixUrl + this.orderUrlPrefix + this.rows);
       axios({
         method: "GET",
         url: this.basicApi + suffixUrl + this.orderUrlPrefix + this.rows
