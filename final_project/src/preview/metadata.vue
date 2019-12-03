@@ -2,7 +2,9 @@
   <el-main id="metadata">
     <el-card class="box-card">
       <div slot="header" class="clearfix">
-        <span><i class="el-icon-info"/>&nbsp;Metadata</span>
+        <span>
+          <i class="el-icon-info" />&nbsp;Metadata
+        </span>
       </div>
       <div>
         <b>Usage Information</b>
@@ -30,6 +32,28 @@
         <pre>               Date created:                             2019-07-23</pre>
         <pre>               Current version:                         Version 1</pre>
         <br />
+      </div>
+    </el-card>
+    <br />
+    <el-card class="box-card">
+      <div slot="header" class="clearfix">
+        <span>
+          <i class="el-icon-s-opportunity" />&nbsp;Columns Info
+        </span>
+      </div>
+      <div>
+        <i class="el-icon-star-on" style="margin-bottom: 5px;"></i>&nbsp;<b>ID </b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data ID<br/>
+        <i class="el-icon-tickets" style="margin-bottom: 5px;"></i>&nbsp;<b>flightNumber </b>&emsp;&emsp;Flight Number<br/>
+        <i class="el-icon-tickets" style="margin-bottom: 5px;"></i>&nbsp;<b>craftTypeCode </b>&emsp;&nbsp;Aircraft<br/>
+        <i class="el-icon-tickets" style="margin-bottom: 5px;"></i>&nbsp;<b>traAirport </b>&emsp;&emsp;&emsp;&nbsp;&nbsp;Transit Airport<br/>
+        <i class="el-icon-date" style="margin-bottom: 5px;"></i>&nbsp;<b>departureDate </b>&emsp;&nbsp;Departure Date<br/>
+        <i class="el-icon-date" style="margin-bottom: 5px;"></i>&nbsp;<b>arrivalDate </b>&emsp;&emsp;&emsp;Arrival Date<br/>
+        <i class="el-icon-tickets" style="margin-bottom: 5px;"></i>&nbsp;<b>cabinClass </b>&emsp;&emsp;&nbsp;&nbsp;&nbsp;CabinClass, Y= Econ, C = Business, F= First<br/>
+        <i class="el-icon-tickets" style="margin-bottom: 5px;"></i>&nbsp;<b>priceClass </b>&emsp;&emsp;&emsp;OTA Price Level<br/>
+        <i class="el-icon-s-data" style="margin-bottom: 5px;"></i>&nbsp;<b>price </b>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;Price<br/>
+        <i class="el-icon-s-data" style="margin-bottom: 5px;"></i>&nbsp;<b>rate </b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Discount Rate<br/>
+        <i class="el-icon-date" style="margin-bottom: 5px;"></i>&nbsp;<b>createDate </b>&emsp;&emsp;&emsp;Booking Date<br/>
+        <i class="el-icon-s-data" style="margin-bottom: 5px;"></i>&nbsp;<b>dateDifference </b>&emsp;&nbsp;Day Difference Between Booking date and Departure Date<br/>
       </div>
     </el-card>
   </el-main>
@@ -64,7 +88,7 @@ pre {
   font-family: Helvetica, sans-serif;
   color: #797474;
 }
-.el-card >>> .el-card__header{
+.el-card >>> .el-card__header {
   background-color: #e6e6e69d;
 }
 </style>

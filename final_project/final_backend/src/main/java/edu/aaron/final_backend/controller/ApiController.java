@@ -44,7 +44,6 @@ public class ApiController {
                                 Integer limitToFirst,
                                 Integer limitToLast) throws Exception {
 
-
         String url = URLUtil.generateURL(orderBy, startAt, endAt, limitToFirst, limitToLast);
         List<Ticket> data = apiService.executeURL(url);
         Boolean isAsce = BoolUtil.isNull(limitToFirst);

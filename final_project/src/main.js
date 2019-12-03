@@ -3,11 +3,16 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
 import firebase from 'firebase'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import './style/global.css'
 
 Vue.use(ElementUI)
+library.add(faUserSecret)
 
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false;
 
 const firebaseConfig = {

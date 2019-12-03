@@ -30,7 +30,7 @@ Consider again the LA Restaurants & Market Health data set available at Kaggle: 
 
 <a href="https://github.com/AaronYang2333/INF_551/blob/master/ay_hw_5/pdf/hw5.pdf" target="_blank">[Homework pdf]</a>
 
-## Final Project Showcase
+## Final Project Showcase <a href="https://aaronyang2333.github.io/INF_551/final_project/dist/index" target="_blank">[Take a look]</a>
 
 ![1](https://user-images.githubusercontent.com/24391143/69748711-d2f0fb00-10fd-11ea-88de-523aab5727bc.png)
 ![2](https://user-images.githubusercontent.com/24391143/69748712-d3899180-10fd-11ea-95ab-fe2639da47a4.png)
