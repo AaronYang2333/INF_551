@@ -8,7 +8,6 @@ __date__ = '11/28/2019 4:31 PM'
 import sys
 from pyspark import SparkContext
 
-
 def splitFunc(row):
 	col_bar, col_beer, col_price = row.split(',')
 	if col_beer.startswith('Bud'):
@@ -16,10 +15,10 @@ def splitFunc(row):
 
 
 if __name__ == "__main__":
-	# input_file_path = "sells.csv"
-	# output_file_path = "output.txt"
-	input_file_path = sys.argv[1]
-	output_file_path = sys.argv[2]
+	input_file_path = "../assets/sells.csv"
+	output_file_path = "./output.txt"
+	# input_file_path = sys.argv[1]
+	# output_file_path = sys.argv[2]
 	sc = SparkContext.getOrCreate()
 
 	lines = sc.textFile(input_file_path)
