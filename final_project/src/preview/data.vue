@@ -56,8 +56,8 @@ export default {
   },
   data() {
     return {
-      // basicApi: "https://flight-117bd.firebaseio.com/.json",
-      basicApi: "http://3.14.161.4:8067/api",
+      basicApi: "https://ay2333.firebaseio.com/data.json",
+      // basicApi: "http://3.14.161.4:8067/api",
       // basicApi: "http://localhost:8067/api",
       deafultSuffix: "?orderBy=%22$key%22",
       tableData: [],
