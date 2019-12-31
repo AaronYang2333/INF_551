@@ -21,8 +21,7 @@
         max-height="515"
       >
         <el-table-column type="index" width="50"></el-table-column>
-        <el-table-column prop="id" label="ID" width="115"></el-table-column>
-        <el-table-column prop="flightNumber" label="FlightNumber" width="115"></el-table-column>
+        <el-table-column prop="flightNumber" label="FlightNumber" width="115" fixed></el-table-column>
         <el-table-column prop="craftTypeCode" label="CraftTypeCode" width="125"></el-table-column>
         <el-table-column prop="traAirport" label="TraAirport" width="110"></el-table-column>
         <el-table-column prop="departureDate" label="DepartureDate" width="125"></el-table-column>
