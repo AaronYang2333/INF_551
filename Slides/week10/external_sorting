@@ -1,0 +1,36 @@
+--------------Nested--------------
+for each M blocks bs of S do
+	for each block br of R do
+		for each tuple s in bs do
+			for each tuple r in br do
+				if r and s join then output (r, s)
+Cost: B(R) + (B(R)B(S))/(M-2)
+Asme: M < B(R) <= B(S)
+
+--------------Sort-------------- sort sort merge
+[load M blocks of __ each time, sort them and write them back to disk. It will create __ runs of each of size M. Cost: 2B(__) ] X2
+Merge __ runs from R and __ runs from S, join all sorted runs. Cost: B(R)+B(S)
+Cost: 3B(R)+3B(S)
+Asme:B(R) + B(S) <= M^2 
+Alt:Load __ runs of __, and merge them and send them back to disk, it generates __ runs and each run size is M^2 pages
+
+--------------Simple-------------- sort merge sort merge
+[load M blocks of __ each time, sort them and write them back to disk. It will create __ runs of each of size M. Cost: 2B(__)
+load __ runs of __ at a time, and merge them. It generates __ runs and each run size is __ pages. Cost: 2B(__)] X2
+Join R and S using __-way merging Cost: B(R)+B(S)
+Cost: 5B(R)+5B(S)
+Asme:B(R) <= M^2 or B(S) <= M^2
+Alt:Load __ runs of __, and merge them and send them back to disk, it generates __ runs and each run size is M^2 pages. Cost: 2B(__)
+
+--------------Hash--------------
+[Hash __ into M buckets, each bucket has a size of __, write all bucket to disk.Cost: 2B(__)]
+Join every pair of corresponding buckets. Cost: B(R)+B(S)
+Cost: 3B(R)+3B(S)
+Asme:min(B(R), B(S)) <= M^2
+Alt: Hash each bucket of __ into M buckets using another hash func h', write all bucket to disk. Cost: 2B(__)
+
+--------------Index--------------
+Load __ into M pages, iterate __ by tuples. Cost: B(R)
+For each tuple in __, fetch corresponding tuples from __. Cost: T(R)B(S)/V(S, a)
+Join __ and __
+Cost: B(R) + T(R)B(S)/V(S, a)

@@ -1,0 +1,22 @@
+<bib>
+<cd>abc</cd>
+<book price="35">
+	<publisher>Addison-Wesley</publisher>
+        <author>Serge Abiteboul</author>
+        <author><first-name>Rick</first-name><last-name>Hull</last-name></author>
+        <author age="20">Victor Vianu</author>
+        <title>Foundations of Databases</title>
+        <year>1995</year>
+	<price>38.8</price>
+</book>
+<book price="55">
+        <publisher>Freeman</publisher>
+        <author>Jeffrey D. Ullman</author>
+        <title>Principles of Database and Knowledge Base Systems</title>
+        <year>1998</year>
+</book>
+<book>
+	<title>xyz</title>
+	<author/>
+</book>
+</bib>
