@@ -1,6 +1,10 @@
+## 2019 Fall USC INF_551 (Foundations of Data Management) Homeworks Respority
 
-# 2019 Fall USC INF_551 (Foundations of Data Management) Homeworks Respority
+#### Descrption
+A foundation courses in the Informatics program. It prepares the students with the fundamental knowledge on the data management. Such a knowledge is critical for the students to succeed in more advanced data management courses in the program. It also exposes students to the cutting-edge data management concepts, systems, and techniques for managing large scale of data, to ensure that students have
+adequate background for further exploring big data analytics in follow-up courses.
 
+#### Homworks
 Coursework in University of Southern California. Implement Data Management techiques with Python3. 
 
 |No.| Main Application |Homework Dir|Tags|Score|
@@ -14,9 +18,6 @@ Coursework in University of Southern California. Implement Data Management techi
 
 ---
 
-## Final Project Showcase <a href="https://aaronyang2333.github.io/INF_551/final_project/dist/index" target="_blank">[Take a look]</a>
+#### Project <a href="https://aaronyang2333.github.io/INF_551/final_project/dist/index" target="_blank">[Take a look]</a>
 
-![1](https://user-images.githubusercontent.com/24391143/69748711-d2f0fb00-10fd-11ea-88de-523aab5727bc.png)
-![2](https://user-images.githubusercontent.com/24391143/69748712-d3899180-10fd-11ea-95ab-fe2639da47a4.png)
 ![3](https://user-images.githubusercontent.com/24391143/69748713-d3899180-10fd-11ea-81dc-a1f7cf669018.png)
-![4](https://user-images.githubusercontent.com/24391143/69748714-d3899180-10fd-11ea-9d58-1c01e70e1ae0.png)
