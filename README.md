@@ -1,4 +1,4 @@
-## 2019 Fall USC INF_551 (Foundations of Data Management) Homeworks Respority
+## 2019 Fall USC DSCI 551 (Foundations of Data Management) Homeworks Respority
 
 #### Descrption
 A foundation courses in the Informatics program. It prepares the students with the fundamental knowledge on the data management. Such a knowledge is critical for the students to succeed in more advanced data management courses in the program. It also exposes students to the cutting-edge data management concepts, systems, and techniques for managing large scale of data, to ensure that students have
